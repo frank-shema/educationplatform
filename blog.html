@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechEduca</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Navigation bar-->
+    <nav>
+        <img id="navimg" src="images/logo.svg" alt="logo">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+            </ul>
+            <img id="menu-bttn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+    <!--Home-->
+    <section id="about-home">
+        <h2>Blogs</h2>
+    </section>
+
+    <section id="blog-content">
+        <div class="blogs">
+            <div class="post">
+                <img src="images/b1.jpg" alt="">
+                <h3>Learn Web Development In The Easiest Way</h3>
+                <p>Lorem ipsum dolor sit amet. Eum iste enim hic repellat vero et itaque iusto in temporibus placeat et fuga dolores non fugiat vitae vel excepturi itaque. Qui quia commodi et omnis blanditiis sed sint velit ex accusamus voluptas.</p>
+                <a href="post.html">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b2.jpg" alt="">
+                <h3>Learn Web Development In The Easiest Way</h3>
+                <p>Lorem ipsum dolor sit amet. Eum iste enim hic repellat vero et itaque iusto in temporibus placeat et fuga dolores non fugiat vitae vel excepturi itaque. Qui quia commodi et omnis blanditiis sed sint velit ex accusamus voluptas.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b3.jpg" alt="">
+                <h3>Learn Web Development In The Easiest Way</h3>
+                <p>Lorem ipsum dolor sit amet. Eum iste enim hic repellat vero et itaque iusto in temporibus placeat et fuga dolores non fugiat vitae vel excepturi itaque. Qui quia commodi et omnis blanditiis sed sint velit ex accusamus voluptas.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b4.png" alt="">
+                <h3>Learn Web Development In The Easiest Way</h3>
+                <p>Lorem ipsum dolor sit amet. Eum iste enim hic repellat vero et itaque iusto in temporibus placeat et fuga dolores non fugiat vitae vel excepturi itaque. Qui quia commodi et omnis blanditiis sed sint velit ex accusamus voluptas.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+
+        <div class="cate">
+            <h2>Categories</h2>
+            <hr>
+            <a href="#">Web Development</a>
+            <hr>
+            <a href="#">Frontend Development</a>
+            <hr>
+            <a href="#">Backend Development</a>
+            <hr>
+            <a href="#">Python Programming</a>
+            <hr>
+            <a href="#">Python Programming</a>
+            <hr>
+            <a href="#">JavaScript Fundamentals</a>
+            <hr>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer id="footer">
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Website</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Term Of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Website</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Grades</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newletter</h3>
+            <p>You can trust us.We only send promo offers.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2022 All rights reserved | This template is made by aryasrivastava17</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+         $('#menu-bttn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
+</body>
+</html>
